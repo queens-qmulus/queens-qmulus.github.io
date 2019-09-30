@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Qmulus: Queen's University Open Data API
 
 You can use the [editor on GitHub](https://github.com/queens-qmulus/queens-qmulus.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
