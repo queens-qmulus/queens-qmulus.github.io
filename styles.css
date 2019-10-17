@@ -1,0 +1,137 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 4rem;
+  background: rgb(32,35,42);
+}
+
+.header-breakpoint {
+  margin: auto;
+  /* TODO: responsive breakpoints */
+  max-width: 1024px;
+  height: 100%;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-border {
+  height: 0.2rem;
+  display: flex;
+}
+
+.header-border > div {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  height: 100%;
+}
+
+.logo-ctn {
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.wordmark {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  float: right;
+}
+
+.header-link:hover {
+  color: rgb(28, 128, 237);
+}
+
+.segment1 {
+  background: rgb(28, 128, 237);
+}
+
+.segment2 {
+  background: rgb(243,116,115);
+}
+
+.segment3 {
+  background: rgb(243,205,81);
+}
+
+.top-content {
+  text-align: center;
+  background: rgb(40,44,52);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.titles {
+}
+
+.titles h1 {
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.titles h2 {
+  margin-top: 0rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.cta-ctn {
+  display: flex;
+  justify-content: center;
+}
+
+/* TODO: responsive layout for cta buttons */
+.cta {
+  background: rgb(28, 128, 237);
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0.4rem;
+}
+
+.cta:hover {
+  background: rgb(17, 109, 208);
+}
+
+.cta:active {
+  background: rgb(15, 99, 189);
+}
+
+.content {
+  margin: auto;
+  max-width: 1024px;
+  margin-top: 1rem;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Qmulus: Queen's University Open Data API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="queens university open data api qmulus">
+  <meta name="description" content="Queen's University Open Data API">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- TODO: favicon -->
+</head>
+<body>
+  <div class="header">
+    <div class="header-breakpoint">
+      <div class="header-content">
+        <!-- TODO: replace logo with smaller sized transparent white image -->
+        <div class="logo-ctn">
+          <img class="logo" alt="Qmulus Logo" src="logo.png" />
+          <a class="wordmark" href="/">Qmulus</a>
+        </div>
+        <div class="links">
+          <a class="header-link" target="_blank" href="https://github.com/queens-qmulus/qmulus">Github</a>
+          <a class="header-link" target="_blank" href="mailto:contact@qmulus.io">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="header-border">
+        <div class="segment1"></div>
+        <div class="segment2"></div>
+        <div class="segment3"></div>
+      </div>
+
+  <div class="top-content">
+    <div class="titles">
+      <h1>Qmulus</h1>
+      <h2>Queen's University Open Data API</h2>
+    </div>
+
+    <div class="cta-ctn">
+      <a class="cta" target="_blank" href="https://docs.qmulus.io">Documentation</a>
+      <a class="cta" target="_blank" href="https://manage.qmulus.io/signup">API Token Sign Up</a>
+    </div>
+  </div>
+
+  <div class="content">
+    // TODO(alexadusei): explain the API, use cases, a simple example
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBWfBWg8xIZlUOHk5pBMmhiMc4T8A5RgvA",
+      authDomain: "queens-qmulus.firebaseapp.com",
+      databaseURL: "https://queens-qmulus.firebaseio.com",
+      projectId: "queens-qmulus",
+      storageBucket: "queens-qmulus.appspot.com",
+      messagingSenderId: "57518273167",
+      appId: "1:57518273167:web:96d42c7d3b69601ca0f6fa",
+      measurementId: "G-X9DJG4HLE2"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+</html>
