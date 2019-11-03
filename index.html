@@ -39,12 +39,46 @@
 
     <div class="cta-ctn">
       <a class="cta" target="_blank" href="https://docs.qmulus.io">Documentation</a>
-      <a class="cta" target="_blank" href="https://manage.qmulus.io/signup">API Token Sign Up</a>
+      <a class="cta" target="_blank" href="https://manage.qmulus.io/signup">Token Sign Up</a>
     </div>
   </div>
 
   <div class="content">
-    // TODO(alexadusei): explain the API, use cases, a simple example
+    <div class="column-ctn">
+      <div class="left">
+        <h3>Qmulus is an Open Data API providing datasets relevant to Queen's University</h3>
+        <p>It is free to use for anyone to build apps and services based on the 5 different datasets. The data is collected from various university sources and is provided as-is.</p>
+        <p>Sign up for an API token <a href="https://manage.qmulus.io/token" target="_blank">here</a>. Currently, token registration is restricted to those with an @queensu.ca email address.</p>
+        <p>Have questions about Qmulus? Reach us at <a href="mailto:contact@qmulus.io" target="_blank">contact@qmulus.io</a></p>
+
+        <h4>Looking to contribute?</h4>
+        Most of Qmulus is open source. Help make the service better by taking a look at our <a href="https://github.com/queens-qmulus/qmulus/blob/develop/CONTRIBUTING.md" target="_blank">contribution guide</a>.
+      </div>
+      <div class="right">
+        <div class="code-ctn">
+          <div class="code-ctn-header">$ curl "https://api.qmulus.io/v1/courses/CISC-124?token=&lt;...&gt;"</div>
+          <pre class="code-ctn-pre">
+{
+  "id": "CISC-124",
+  "department": "CISC",
+  "course_code": "124",
+  "course_name": "Introduction to Computing Science II",
+  "campus": "Main",
+  "description": "Introduction to object-oriented design, ...",
+  "grading_basis": "Graded",
+  "course_components": {"laboratory": "Required", "lecture": "Required"},
+  "requirements": "Prerequisite C- in CISC121 or ...",
+  "academic_level": "Undergraduate Online",
+  "academic_group": "Faculty of Arts and Science",
+  "academic_org": "School of Computing",
+  "units": 3,
+  ...
+} 
+          </pre>
+        </div>
+        <p>View all the docs at <a href="https://docs.qmulus.io" target="_blank">https://docs.qmulus.io</a></p>
+      </div>
+    </div>
   </div>
 
   <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>

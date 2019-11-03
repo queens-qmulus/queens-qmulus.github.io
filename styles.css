@@ -11,9 +11,10 @@ body {
 
 .header-breakpoint {
   margin: auto;
-  /* TODO: responsive breakpoints */
   max-width: 1024px;
   height: 100%;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
 }
 
 .header-content {
@@ -33,7 +34,7 @@ body {
 }
 
 .logo {
-  height: 75%;
+  height: 65%;
 }
 
 .logo-ctn {
@@ -46,7 +47,7 @@ body {
 .wordmark {
   text-decoration: none;
   color: white;
-  margin-left: 1rem;
+  margin-left: 0.6rem;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -85,12 +86,12 @@ body {
 .top-content {
   text-align: center;
   background: rgb(40,44,52);
-  height: 20rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 .titles {
@@ -133,6 +134,60 @@ body {
 .content {
   margin: auto;
   max-width: 1024px;
-  margin-top: 1rem;
+  padding: 1rem;
 }
 
+.content a {
+  text-decoration: none;
+  color: rgb(28, 128, 237);
+}
+
+.content a:hover {
+  color: rgb(15, 99, 189);
+}
+
+.column-ctn {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-ctn h3 {
+  margin-top: 0;
+}
+
+.column-ctn h4 {
+  margin-bottom: 0.2rem;
+}
+
+.column-ctn .left {
+  flex: 2;
+  padding-right: 1rem;
+}
+.column-ctn .right {
+  flex: 3;
+}
+
+.code-ctn {
+  border-radius: 1rem;
+  color: white;
+  font-family: monospace;
+}
+.code-ctn .code-ctn-header {
+  background: rgb(32,35,42);
+  padding: 0.6rem;
+}
+.code-ctn .code-ctn-pre {
+  background: rgb(40,44,52);
+  margin: 0;
+  padding: 0.6rem;
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .column-ctn {
+    flex-direction: column;
+  }
+  .column-ctn > div {
+    flex: 1
+  }
+}
