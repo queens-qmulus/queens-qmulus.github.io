@@ -100,6 +100,7 @@ body {
 .titles h1 {
   font-size: 3.4rem;
   margin-bottom: 1rem;
+  margin-top: 1.4rem;
 }
 
 .titles h2 {
@@ -121,6 +122,7 @@ body {
   text-decoration: none;
   font-size: 1.2rem;
   margin: 0.4rem;
+  height: 1.6rem;
 }
 
 .cta:hover {
@@ -133,6 +135,7 @@ body {
 
 .content {
   margin: auto;
+  margin-top: 1.4rem;
   max-width: 1024px;
   padding: 1rem;
 }
@@ -171,6 +174,7 @@ body {
   border-radius: 1rem;
   color: white;
   font-family: monospace;
+  font-size: 110%;
 }
 .code-ctn .code-ctn-header {
   background: rgb(32,35,42);
@@ -189,5 +193,11 @@ body {
   }
   .column-ctn > div {
     flex: 1
+  }
+  .code-ctn {
+    margin-top: 2rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    font-size: 100%;
   }
 }
